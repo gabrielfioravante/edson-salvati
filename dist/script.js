@@ -1,0 +1,1 @@
+"use strict";var menu=document.querySelector(".js-menu"),links=document.querySelector(".js-links");menu.addEventListener("click",function(){links.classList.toggle("links--open"),menu.classList.toggle("menu--open")});
