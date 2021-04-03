@@ -28,6 +28,7 @@ nav {
     max-height: 0px;
     overflow: hidden;
     transition: max-height 0.35s ease-in-out;
+    z-index: 1;
 
     @media(min-width: $lg) {
       position: relative;

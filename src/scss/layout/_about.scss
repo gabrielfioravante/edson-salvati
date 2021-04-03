@@ -55,6 +55,7 @@
 
   &__image {
     position: relative;
+    overflow-x: hidden;
 
     img {
       max-width: 100%;
@@ -62,7 +63,7 @@
       vertical-align: middle;
 
       @media (min-width: $lg) {
-        top: -1.2rem;
+        top: 1rem;
         left: 1rem;
         position: absolute;
       }

@@ -1,3 +1,5 @@
+AOS.init();
+
 const menu = document.querySelector('.js-menu');
 const links = document.querySelector('.js-links');
 
