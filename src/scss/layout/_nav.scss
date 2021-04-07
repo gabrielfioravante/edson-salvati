@@ -4,7 +4,7 @@
   top: 0;
   padding: 0 1.25rem;
 
-  @media (min-width: $max) {
+  @media (min-width: $max + 50px) {
     padding: 0;
   }
 

@@ -3,6 +3,10 @@
   background-color: white;
 
   @media (min-width: $lg) {
+    padding: 5.75rem 1.25;
+  }
+
+  @media (min-width: $max + 50px) {
     padding: 5.75rem 0;
   }
 
