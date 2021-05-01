@@ -71,30 +71,6 @@ nav {
     max-height: 130px;
   }
 
-  .contact {
-    text-decoration: none;
-    padding: 1rem 2.5rem;
-    font-size: 1.1rem;
-    text-transform: uppercase;
-    border: 1px solid white;
-    text-align: center;
-    transition: 300ms;
-    background-color: white;
-    color: $primary;
-    font-weight: 700;
-    display: none;
-
-    @media (min-width: $lg) {
-      display: block;
-    }
-
-    &:hover {
-      color: white;
-      background-color: $secondary;
-      border-color: $secondary;
-    }
-  }
-
   .logo-wrapper {
     max-width: 80%;
 

@@ -69,8 +69,8 @@
 
     a {
       text-decoration: none;
-      padding: 1rem 2.5rem;
-      font-size: 1rem;
+      padding: 1em 2.5em;
+      font-size: 1.1rem;
       text-transform: uppercase;
       border: 1px solid white;
       display: inline-block;
@@ -78,7 +78,7 @@
       transition: 300ms;
 
       @media (min-width: $md) {
-        padding: 1.56rem 3.75rem;
+        padding: 1.3em 3.75em;
       }
 
       &:hover {
