@@ -47,8 +47,5 @@ exports.img = img;
 
 exports.build = series(html, scss, js, img);
 exports.dev = () => {
-  watch('src/index.html', html);
-  watch('src/scripts/script.js', js);
-  watch('src/scss/*/*.scss', scss);
-  watch('src/images/*.*', img);
+  watch('src/**', series(html, scss, js, img));
 };
